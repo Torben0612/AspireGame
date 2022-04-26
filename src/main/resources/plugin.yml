@@ -1,0 +1,10 @@
+name: AspireGameshow
+version: '${project.version}'
+main: xyz.aspirenetwork.gameshow.Main
+api-version: 1.16
+authors: [ Torben ]
+description: a gameshow plugin for the aspire smp
+website: www.theaspiresmp.tk
+commands:
+  play-background-music:
+  question-1:
