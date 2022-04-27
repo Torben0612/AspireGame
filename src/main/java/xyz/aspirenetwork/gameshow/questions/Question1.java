@@ -23,13 +23,14 @@ public class Question1 implements CommandExecutor {
             meta.setAuthor(ChatColor.BLUE + "");
             meta.addPage(
                     ChatColor.BLUE + "Question 1:" +
-                            "\n" + ChatColor.BLUE + "INSERT-QUESTION-HERE"
+                            "\n" + ChatColor.BLUE + "What content is australia"            
             );
             q1.setItemMeta(meta);
-            player.getInventory().addItem(q1);
-
+	        for(Player player : Bukkit.getOnlinePlayers){
+                
+                player.getInventory().addItem(q1);
+            }
         }
-
         return false;
     }
 }
