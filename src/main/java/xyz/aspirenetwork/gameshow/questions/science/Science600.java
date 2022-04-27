@@ -1,6 +1,5 @@
-package xyz.aspirenetwork.gameshow.questions;
+package xyz.aspirenetwork.gameshow.questions.science;
 
-import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
@@ -10,9 +9,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.BookMeta;
 
-import static org.bukkit.Bukkit.getOnlinePlayers;
-
-public class Question1 implements CommandExecutor {
+public class Science600 implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         Player player = (Player) sender;

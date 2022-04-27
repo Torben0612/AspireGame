@@ -1,9 +1,6 @@
 package xyz.aspirenetwork.gameshow.sounds;
 
-import org.bukkit.Bukkit;
-import org.bukkit.Effect;
-import org.bukkit.Location;
-import org.bukkit.Material;
+import org.bukkit.*;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -18,7 +15,7 @@ public class BackgroundMusic implements CommandExecutor {
             Player player = (Player) sender;
 
             player.playEffect(new Location(Bukkit.getWorld("world"), 4, 72, -63), Effect.RECORD_PLAY, Material.MUSIC_DISC_STAL);
-
+            player.sendMessage(ChatColor.GREEN + "You Are listening to: Stal by C418!");
         }
 
         return false;

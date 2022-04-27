@@ -1,6 +1,6 @@
 package xyz.aspirenetwork.gameshow.items;
 
-import org.bukkit.entity.Item;
+import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -14,7 +14,8 @@ public class GameShowRuleBook implements Listener {
 
         Player player = e.getPlayer();
 
-        ItemStack rules = new ItemStack(M a)
+        ItemStack rules = new ItemStack(Material.WRITTEN_BOOK);
+
 
     }
 

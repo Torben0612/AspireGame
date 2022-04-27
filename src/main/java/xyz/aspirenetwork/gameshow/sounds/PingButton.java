@@ -14,7 +14,6 @@ public class PingButton implements Listener {
 
         if (e.isSneaking()){
             e.getPlayer().playSound(e.getPlayer().getLocation(), Sound.BLOCK_NOTE_BLOCK_BELL, 50, 0.66F);
-            Bukkit.broadcastMessage(ChatColor.GREEN + "You Are listening to: Stal by C418!");
 
         }
 
