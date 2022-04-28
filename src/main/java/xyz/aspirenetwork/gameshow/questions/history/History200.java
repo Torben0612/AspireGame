@@ -33,7 +33,7 @@ public class History200 implements CommandExecutor {
                             "\n" + "optional)"
             );
             meta.addPage(
-
+                    "July 4th 1776"
             );
             book.setItemMeta(meta);
             player.getInventory().addItem(book);
