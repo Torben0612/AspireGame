@@ -23,21 +23,21 @@ public class GameShowScoreboard implements Listener {
         obj.setDisplaySlot(DisplaySlot.SIDEBAR);
         obj.setDisplayName(ChatColor.YELLOW.toString() + ChatColor.BOLD + "Aspire Game Show");
 
-        Score space1 = obj.getScore(ChatColor.WHITE + " ");
+        Score space1 = obj.getScore(" ");
         space1.setScore(1);
 
-        Score info1 = obj.getScore(ChatColor.WHITE + "Welcome to the Aspire");
+        Score info1 = obj.getScore(ChatColor.WHITE.toString() + "Welcome to the Aspire");
         info1.setScore(2);
 
-        Score info2 = obj.getScore(ChatColor.WHITE + "game show hosted by Torben");
+        Score info2 = obj.getScore(ChatColor.WHITE.toString() + "game show hosted by Torben");
         info2.setScore(3);
 
-        Score space2 = obj.getScore(ChatColor.WHITE + "  ");
+        Score space2 = obj.getScore("  ");
         space2.setScore(4);
 
         Score discord = obj.getScore(ChatColor.BLUE.toString() + "https://discord.gg/VNKTCQkTNV");
 
-        Score website = obj.getScore(ChatColor.YELLOW + "www.theaspiresmp.tk");
+        Score website = obj.getScore(ChatColor.YELLOW.toString() + "www.theaspiresmp.tk");
         info2.setScore(6);
     }
 
